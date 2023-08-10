@@ -1,0 +1,42 @@
+/* index.css */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 26vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.button-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.play-button, .how-to-play-button {
+    font-size: 1.25rem; /* Increase the font size */
+    padding: 1rem 2rem; /* Increase the padding for larger buttons */
+    margin: 1rem; /* Increase the margin for more spacing */
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.play-button:hover, .how-to-play-button:hover {
+    background-color: #0056b3;
+}
