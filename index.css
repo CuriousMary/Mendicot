@@ -13,23 +13,24 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 26vh;
+    padding-top: 15vh;
 }
 
 h1 {
     font-size: 3rem;
+    margin-bottom: 0.0rem; /* Reduce the margin at the bottom */
 }
 
 .button-container {
-    margin-top: 2rem;
+    margin-top: 0rem;
     display: flex;
     flex-direction: row;
 }
 
 .play-button, .how-to-play-button {
-    font-size: 1.25rem; /* Increase the font size */
-    padding: 1rem 2rem; /* Increase the padding for larger buttons */
-    margin: 1rem; /* Increase the margin for more spacing */
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
     border: none;
     background-color: #007bff;
     color: white;
@@ -41,10 +42,11 @@ h1 {
     background-color: #0056b3;
 }
 
-
 /* logo css */
 img {
-    max-width: 100%; /* Make sure the logo doesn't exceed its container */
-    height: auto; /* Maintain the aspect ratio */
-    margin-bottom: 1rem; /* Add some spacing below the logo */
+    max-width: 100%;
+    height: auto;
+    margin-top: 0.0rem; /* Reduce the margin at the top */
+    margin-bottom: 0.0rem; /* Reduce the margin at the bottom */
+    width: 300px;
 }
